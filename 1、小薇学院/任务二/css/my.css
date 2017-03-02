@@ -1,0 +1,108 @@
+body{ 
+	margin: 0;
+	padding: 0;
+	background-color: #DEDEDE;
+}
+#top{
+	height: 80px;
+	background-color:#333333;
+}
+#top img{
+	float: left;
+}
+#top ul li {
+	line-height: 80px;
+	float: right;
+	display: inline;
+	width: 100px;
+}
+#top ul li a{
+	text-decoration: none;
+	color:#fff;	
+}
+.article{
+	width: 95%;
+	margin: 20 auto;
+	background-color: #fff;
+	font-family: "黑体";
+}
+.article .middle{
+	padding: 37px 22px; 
+}
+.article .middle h2,span{
+	color: #73625B;
+}
+.article .middle .text{
+	line-height: 35px;
+	text-indent: 2em;
+}
+.article .middle ul li{
+	list-style: none;
+	line-height: 25px;
+}
+.article .middle .smallPic{
+	margin-top: 10px;
+	margin-left: 40px;
+	height: 300px;
+	width: 400px;
+	border:1px solid #73625B;
+}
+.article .middle .smallPic span{
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding-top: 10px;
+}
+.article .middle .smallPic img{
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.article .middle ol li{
+	font-family: "黑体";
+	font-weight: bold;
+	line-height: 25px;
+}
+.article .middle .biaoge{
+	width: 100%;
+	border-collapse:collapse;
+}
+.article .middle .biaoge .shou{
+	background-color: #000;
+	color:#fff;
+}
+.article .middle .biaoge .wei{
+	background-color: #ccc;
+}
+.article .middle .biaoge td{
+	border: 1px solid #98bf21;
+	height: 25px;
+}
+#wei{
+	height: 80px;
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	line-height: 80px;
+	
+}
+
+.article .middle .info{
+	padding-left: 300px;
+	border-spacing: 10px 10px;
+}
+.article .middle .info textarea{
+	width: 850px;
+	height: 110px;
+}
+.article .middle .button{
+	width: 100%;
+	height: 43px; 
+	background-color: #3355D0;
+	border:1px solid #3355D0;
+	border-radius: 15px;
+	font-family: "微软雅黑";
+	color: #fff;
+	font-weight: bold;
+}
