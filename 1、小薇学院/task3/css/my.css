@@ -1,0 +1,9 @@
+#frame{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+#frame .left{
+	width: 200px;
+	border: 1px solid #999;
+}
