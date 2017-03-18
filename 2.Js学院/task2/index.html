@@ -1,39 +1,44 @@
-                                                                                                                                                       <head>
+<!DOCTYPE html>
+<html>
+  <head>
     <meta charset="utf-8">
     <title>IFE JavaScript Task 01</title>
   </head>
 <body>
 
-  <h3>ÎÛÈ¾³ÇÊĞÁĞ±í</h3>
+  <h3>æ±¡æŸ“åŸå¸‚åˆ—è¡¨</h3>
   <ul id="aqi-list">
 <!--   
-    <li>µÚÒ»Ãû£º¸£Öİ£¨ÑùÀı£©£¬10</li>
-      <li>µÚ¶şÃû£º¸£Öİ£¨ÑùÀı£©£¬10</li> -->
+    <li>ç¬¬ä¸€åï¼šç¦å·ï¼ˆæ ·ä¾‹ï¼‰ï¼Œ10</li>
+      <li>ç¬¬äºŒåï¼šç¦å·ï¼ˆæ ·ä¾‹ï¼‰ï¼Œ10</li> -->
   </ul>
 
 <script type="text/javascript">
 
 var aqiData = [
-  ["±±¾©", 90],
-  ["ÉÏº£", 50],
-  ["¸£Öİ", 10],
-  ["¹ãÖİ", 50],
-  ["³É¶¼", 90],
-  ["Î÷°²", 100]
+  ["åŒ—äº¬", 90],
+  ["ä¸Šæµ·", 50],
+  ["ç¦å·", 10],
+  ["å¹¿å·", 50],
+  ["æˆéƒ½", 90],
+  ["è¥¿å®‰", 100]
 ];
 
 (function () {
 
-	  /*
-	  ÔÚ×¢ÊÍÏÂ·½±àĞ´´úÂë
-	  ±éÀú¶ÁÈ¡aqiDataÖĞ¸÷¸ö³ÇÊĞµÄÊı¾İ
-	  ½«¿ÕÆøÖÊÁ¿Ö¸Êı´óÓÚ60µÄ³ÇÊĞÏÔÊ¾µ½aqi-listµÄÁĞ±íÖĞ
-	  */
-	  alert(aqi-list[0][0]);
-	  for(var i=0;i<aqiData.length;i++){
-		//if()
-	  }
-
+  /*
+  åœ¨æ³¨é‡Šä¸‹æ–¹ç¼–å†™ä»£ç 
+  éå†è¯»å–aqiDataä¸­å„ä¸ªåŸå¸‚çš„æ•°æ®
+  å°†ç©ºæ°”è´¨é‡æŒ‡æ•°å¤§äº60çš„åŸå¸‚æ˜¾ç¤ºåˆ°aqi-listçš„åˆ—è¡¨ä¸­
+  */
+  alert("123");
+  var res="";
+  for(var ii=0;ii<aqiData.length;ii++){
+    if(aqiData[ii][1] > 60){
+        res+=aqiData[ii][0];
+    }
+  }
+  document.getElementById("aqi-list").innerHTML=res;
 })();
 
 </script>
